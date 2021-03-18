@@ -21,6 +21,23 @@ if (flutterVersionName == null) {
     flutterVersionName = '1.0'
 }
 
+//external plugins
+buildscript {
+    repositories {
+        // ...
+        maven { url 'https://plugins.gradle.org/m2/' } // Gradle Plugin Portal
+    }
+    dependencies {
+        // ...
+        // OneSignal-Gradle-Plugin
+        classpath 'gradle.plugin.com.onesignal:onesignal-gradle-plugin:0.12.8'
+        classpath 'com.google.gms:google-services:+'
+    }
+}
+
+apply plugin: 'com.onesignal.androidsdk.onesignal-gradle-plugin'
+apply plugin: 'com.google.gms.google-services'
+
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
@@ -87,20 +104,5 @@ dependencies {
     implementation 'com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava'
 }
 
-//external plugins
-buildscript {
-    repositories {
-        // ...
-        maven { url 'https://plugins.gradle.org/m2/' } // Gradle Plugin Portal
-    }
-    dependencies {
-        // ...
-        // OneSignal-Gradle-Plugin
-        classpath 'gradle.plugin.com.onesignal:onesignal-gradle-plugin:0.12.8'
-        classpath 'com.google.gms:google-services:+'
-    }
-}
 
-apply plugin: 'com.onesignal.androidsdk.onesignal-gradle-plugin'
-apply plugin: 'com.google.gms.google-services'
 
