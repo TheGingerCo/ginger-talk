@@ -2,9 +2,9 @@ class Config {
   // copy your api url from php admin dashboard & paste below
   static final String baseUrl = "https://app.theginger.co/talk/serve/api/";
   //copy your api key from php admin dashboard & paste below
-  static final String apiKey = "hn141zghgkskv1gi0br1lr9z";
+  static final String apiKey = "!null";
   //
-  static final String oneSignalAppID = "eb93b40e-fa88-4d41-a0da-ab8e98eb3f06";
+  static final String oneSignalAppID = "!null";
 
   static final bool enableFacebookAuth = true;
   static final bool enableGoogleAuth = true;
