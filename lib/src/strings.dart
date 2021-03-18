@@ -91,3 +91,4 @@ class AppContent {
   static final String areYouSureLogout = "Are you sure to logout ?";
   static final String provideValidEmail = "Please provide valid email .";
 }
+//nice
