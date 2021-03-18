@@ -1,6 +1,6 @@
 class Config {
   // copy your api url from php admin dashboard & paste below
-  static final String baseUrl = "https://meetair.talk.net/demo/app/v100/";
+  static final String baseUrl = "https://app.theginger.co/talk/serve/api/";
   //copy your api key from php admin dashboard & paste below
   static final String apiKey = "hn141zghgkskv1gi0br1lr9z";
   //
@@ -25,7 +25,7 @@ List introContent = [
     "desc": "Send text, voice message and share file"
   },
   {
-    "title": "Get MeetAiring",
+    "title": "Get Ginger!",
     "image": "assets/images/introImage/intro_slide_one.png",
     "desc": "Work anywhere, with anyone, one any device"
   }

@@ -1,4 +1,4 @@
-const kLOG_TAG = "[MeetAir]";
+const kLOG_TAG = "[GingerTalk]";
 const kLOG_ENABLE = true;
 
 printLog(dynamic data) {
