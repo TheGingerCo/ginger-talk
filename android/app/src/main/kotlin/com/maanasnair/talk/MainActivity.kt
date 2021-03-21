@@ -1,4 +1,4 @@
-package com.meetair.meet_air
+package com.maanasnair.talk
 
 import io.flutter.embedding.android.FlutterActivity
 
