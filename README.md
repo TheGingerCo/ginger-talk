@@ -105,6 +105,6 @@ Read [LICENSE.md](LICENSE.md) for more details about Licensing.
 
 ---
 Contact: 
-[hello@theginger.co](mailto:hello@theginger.co)
-[hello@maanasnair.in](mailto:hello@maanasnair.in)
-[+91 !null](tel:+00)
+_[hello@theginger.co](mailto:hello@theginger.co)_
+_[hello@maanasnair.in](mailto:hello@maanasnair.in)_
+_[+91 !null](tel:+00)_
