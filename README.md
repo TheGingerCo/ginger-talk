@@ -41,8 +41,6 @@ Ginger Talk uses a number of open source projects to work properly:
 
 - _will update soon_
 
-And of course Ginger Talk itself is open source with a [public repository](https://talk.theginger.co/repo))
- on GitHub.
 ---
 ## Installation
 
