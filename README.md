@@ -87,8 +87,8 @@ For the APIs, Ginger uses varieties of APIs in order to run, this below table li
 
 | Plugin | README |
 | ------ | ------ |
-| Ginger Main API | [dev.theginger.co](https://developers.theginger.co/api/ginger-api/) |
-| Ginger Talk API | [dev.theginger.co](https://developers.theginger.co/api/talk/) |
+| Ginger Main API | [dev.theginger.co](https://dev.theginger.co) |
+| Ginger Talk API | [dev.theginger.co](https://dev.theginger.co) |
 | OneSignal | [onesignal.com]() |
 | Firebase | [firebase.google.com]() |
 ---
