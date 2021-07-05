@@ -1,4 +1,4 @@
-# Ginger Talk
+# This project is paused till future announcements..
 
 _badges will update soon_
 
